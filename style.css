@@ -1,11 +1,47 @@
-h2 {
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
     background-color: lightgray;
-    padding: 0.5%;
+    padding: 0.5% 0;
     text-align: center;
     margin: 0;
+}
+
+main{
+    margin: 0.3%;
 }
 
 footer {
     background-color: lightgray;
     text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: darkgray;
+    text-align: center;
+}
+
+td {
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dcdcdc;
 }
