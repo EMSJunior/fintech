@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Input</title>
+</head>
+
+<body>
+    <header>
+        <h2>Web development</h2>
+    </header>
+
+    <main>
+        <form action="./process.php" method="get">
+            <fieldset>
+                <legend>Data input</legend>
+                <label for="client">Client: </label>
+                <input type="text" name="client" id="client">
+
+                <br><br>
+
+                <label for="initialContribution">Initial contribution (R$): </label>
+                <input type="number" name="initialContribution" id="initialContribution" value="500">
+
+                <br><br>
+
+                <label for="period">Perion (Months): </label>
+                <input type="number" name="period" id="period" step="1" value="12">
+
+                <br><br>
+
+                <label for="monthlyincome">Monthly income (%): </label>
+                <input type="number" name="monthlyincome" id="monthlyincome" step="0.05" value="0.7">
+
+                <br><br>
+
+                <label for="monthlycontribution">Monthly contribution: </label>
+                <input type="number" name="monthlycontribution" id="monthlycontribution" value="350">
+
+                <br><br>
+
+                <button type="submit">Process</button>
+            </fieldset>
+        </form>
+        <br><br>
+        <a href="index.html"><button>Back</button></a>
+
+    </main>
+
+    <footer>
+        <p>WanRod e Edson Júnior- &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
